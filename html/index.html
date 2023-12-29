@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 전예선 - POOMㅣ아트박스 </title>
+    <!-- 설정버튼 <i class="fa-light fa-gear"></i> -->
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="shoutcut icon" href="./images/Artboxmain-logo.svg">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- font-awesome 공식사이트 - https://fontawesome.com/ -->
+    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome"
+        href="/css/app-wa-2e45578ecf3b28ce6383d10b8c0bf4d0.css?vsn=d">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/sharp-light.css">
+
+     <!--Add the Slick css-->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script> -->
+	<!--Add the Slick js-->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+    <!-- #wrap>header+main+footer+#quick headerInner  -->
+    <div id="wrap">
+        <header>
+            <div class="header_top">
+                <h1 class="Poom_logo">
+                    <i class="fa-regular fa-bars"></i>
+                    <a href="https://www.poom.co.kr/main/initMain.action"><img src="./images/poom-logo.svg" alt="품로고">
+                    </a>
+                </h1>
+                <div class="hdt-menu">
+                    <a href="#">BEST</a>
+                    <a href="#">NEW</a>
+                    <a href="#">SALE</a>
+                    <a href="#">BRAND</a>
+                    <a href="#"><img src="./images/Artbox-logo.svg" alt="아트박스 소로고"></a>
+                </div>
+                <div class="headerIcon">
+                    <a href="#"><i class="fa-regular fa-user-large"></i>
+                    </a>
+                    <a href="#"><i class="fa-regular fa-truck-fast"></i></a>
+                    <a href="#"><i class="fa-regular fa-bag-shopping"></i>
+                    <span>
+                        <i id="header_cart_cnt"></i>0
+                    </span>
+                    </a>
+                </div>
+            </div>
+        </header>
+    <main>
+        <!-- 아트박스 메인헤더+슬릭 -->
+        <div class="main_slick">
+            <div class="slick">
+                <div class="Artbox_logo">
+                        <a href="#"><img src="./images/Artbox-logo.svg" alt="아트박스로고"></a>
+                </div>
+                <div class="topMainBn">
+                    <div class="bnr" id="brdTopMainBn">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                    <div class="img-container"><img src="./images/main1.jpg" alt="pc1"></div> 
+                                    <span class="txt">
+                                        <b>겨울은 참</b> <br>
+                                    </span>
+                                    <span class="txt-2">
+                                        <b>귀여운 계절</b> <br>
+                                    </span>
+                                    <span class="txt-3">
+                                        <b>뽀글뽀글🤎복슬복슬💜퐁신퐁신</b>
+                                    </span>
+                            </li>
+                            <li class="swiper-slide">
+                                    <div class="img-container"><img src="./images/main2.jpg" alt="pc2"></div> 
+                                    <span class="txt">
+                                        <b>다이어리는</b> <br>
+                                    </span>
+                                    <span class="txt-2">
+                                        <b>아트박스지!</b> <br>
+                                    </span>
+                                    <span class="txt-3">
+                                        <b>디자인,구성,가격까지~ 완벽해😍</b>
+                                    </span>
+                            </li>
+                            <li class="swiper-slide">
+                                    <div class="img-container"><img src="./images/main3.jpg" alt="pc3"></div> 
+                                    <span class="txt">
+                                        <b>아트박스</b> <br>
+                                    </span>
+                                    <span class="txt-2">
+                                        <b>뷰티살롱</b> <br>
+                                    </span>
+                                    <span class="txt-3">
+                                        <b>#연말파티 #신년파티 #스타일링</b>
+                                    </span>
+                            </li>
+                            <li class="swiper-slide">
+                                    <div class="img-container"><img src="./images/main4.jpg" alt="pc4"></div> 
+                                    <span class="txt">
+                                        <b>홈파티</b> <br>
+                                    </span>
+                                    <span class="txt-2">
+                                        <b>초대짱</b> <br>
+                                    </span>
+                                    <span class="txt-3">
+                                        <b>#놀잘알 #술잘알 #겜잘알 #대환영</b>
+                                    </span>
+                            </li>
+                            <li class="swiper-slide">
+                                    <div class="img-container"><img src="./images/main5.jpg" alt="pc5"></div> 
+                                    <span class="txt">
+                                        <b>5분완성</b> <br>
+                                    </span>
+                                    <span class="txt-2">
+                                        <b>다꾸클래스☆</b> <br>
+                                    </span>
+                                    <span class="txt-3">
+                                        <b>5분안에 나도 프로 다꾸러!</b>
+                                    </span>
+                            </li>
+                        </ul>
+                    </div> 
+                        <div class="autoplay-controls">
+                            <button class="autoplay-btn" id="autoplay-btn-start">
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="25" cy="25" r="23.5" transform="rotate(90 25 25)" fill="white" stroke="#F71334" stroke-width="3"/>
+                                    <path d="M20 15L32 25L20 35" stroke="#F71334" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <button class="autoplay-btn" id="autoplay-btn-stop">
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="25" cy="25" r="23.5" transform="rotate(-90 25 25)" fill="white" stroke="#F71334" stroke-width="3"/>
+                                    <path d="M19 15V35" stroke="#F71334" stroke-width="3" stroke-linecap="round"/>
+                                    <path d="M31 15V35" stroke="#F71334" stroke-width="3" stroke-linecap="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            <div class="delivery">
+                <a href="https://www.poom.co.kr/search/totalSearch.action?search_kwd=%EC%95%84%ED%8A%B8%EB%B0%95%EC%8A%A4&artbox_deliv_yn=Y&sale_shop_divi_cd=12&conts_dist_no=C20121600834130">
+                    <img src="./images/delivery1.jpg" alt="배달이미지">
+                </a>
+            </div>
+            <div class="best">
+                <h2>BEST</h2>
+            <div class="bs-slick">
+                <!--arrow-->
+                <span class="bs-btn_prev" id="Bs-BtnPrev">
+                    <i class="fa-regular fa-angle-left"></i>
+                </span>
+                <span class="bs-btn_next" id="Bs-BtnNext">
+                    <i class="fa-regular fa-angle-right"></i>
+                </span>
+                <div class="best-slider">
+                    <!--배너슬라이드-->
+                    <div class="bs-items">
+                        <p><img src="./images/best1.jpg" alt="베스트1"></p>
+                        <span>
+                            <b class="title_h2">드림즈</b> 
+                            <br> 
+                            <b class="md_h3">[소니엔젤] Cat Life BOX(9개)</b> 
+                            <br>
+                            <b class="mi_h4">97,200원</b>
+                            <b class="nob_h5">01</b>
+                        </span>
+                    </div>
+                    <div class="bs-items">
+                        <p><img src="./images/best2.jpg" alt="베스트2"></p>
+                        <span>
+                            <b class="title_h2">아트박스</b> 
+                            <br> 
+                            <b class="md_h3">2024 엉금일기 다이어리 아이보리</b> 
+                            <br>
+                            <b class="mi_h4">14,800원</b>
+                            <b class="nob_h5">02</b>
+                        </span>
+                    </div>
+                    <div class="bs-items">
+                        <p><img src="./images/best3.jpg" alt="베스트3"></p>
+                        <span>
+                            <b class="title_h2">아트박스</b> 
+                            <br> 
+                            <b class="md_h3">말하는 펭귄 인형</b> 
+                            <br>
+                            <b class="mi_h4">19,900원</b>
+                            <b class="nob_h5">03</b>
+                        </span>
+                    </div>
+                    <div class="bs-items">
+                        <p><img src="./images/best4.jpg" alt="베스트4"></p>
+                        <span>
+                            <b class="title_h2">아트박스</b> 
+                            <br> 
+                            <b class="md_h3">별 머리띠</b> 
+                            <br>
+                            <b class="mi_h4">2,000원</b>
+                            <b class="nob_h5">04</b>
+                        </span>
+                    </div>
+                    <div class="bs-items">
+                        <p><img src="./images/best5.jpg" alt="베스트5"></p>
+                        <span>
+                            <b class="title_h2">아트박스</b> 
+                            <br> 
+                            <b class="md_h3">화이트 드레텍 스탑워치</b> 
+                            <br>
+                            <b class="mi_h4">10,900원</b>
+                            <b class="nob_h5">05</b>
+                        </span>
+                    </div>
+                    <div class="bs-items">
+                        <p><img src="./images/best6.jpg" alt="베스트6"></p>
+                        <span>
+                            <b class="title_h2">아트박스</b> 
+                            <br> 
+                            <b class="md_h3">충전식 온수팩 곰돌이</b> 
+                            <br>
+                            <b class="mi_h4">19,900원</b>
+                            <b class="nob_h5">06</b>
+                        </span>
+                    </div>
+                    <div class="bs-items">
+                        <p><img src="./images/best7.jpg" alt="베스트7"></p>
+                        <span>
+                            <b class="title_h2">by 아트박스</b> 
+                            <br> 
+                            <b class="md_h3">[펜텔] 그래프기어샤프 0.5mm</b> 
+                            <br>
+                            <b class="mi_h4">14,400원</b>
+                            <b class="nob_h5">07</b>
+                        </span>
+                    </div>
+                    <div class="bs-items">
+                        <p><img src="./images/best8.jpg" alt="베스트8"></p>
+                        <span>
+                            <b class="title_h2">아트박스</b> 
+                            <br> 
+                            <b class="md_h3">2024 데일리 다이어리</b> 
+                            <br>
+                            <b class="mi_h4">6,800원</b>
+                            <b class="nob_h5">08</b>
+                        </span>
+                    </div>
+                    <div class="bs-items">
+                        <p><img src="./images/best9.jpg" alt="베스트9"></p>
+                        <span>
+                            <b class="title_h2">아트박스</b> 
+                            <br> 
+                            <b class="md_h3">2024 조금은 특별한 나의 이야기</b> 
+                            <br>
+                            <b class="mi_h4">14,800원</b>
+                            <b class="nob_h5">09</b>
+                        </span>
+                    </div>
+                    <div class="bs-items">
+                        <p><img src="./images/best10.jpg" alt="베스트10"></p>
+                        <span>
+                            <b class="title_h2">아트박스</b> 
+                            <br> 
+                            <b class="md_h3">2024 빈티지 다이어리</b> 
+                            <br>
+                            <b class="mi_h4">4,200원</b>
+                            <b class="nob_h5">10</b>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="artboxfriends">
+                <h2>ARTBOX FRIENDS</h2>
+                <div class="friendsMain">
+                    <a href="https://www.poom.co.kr/dispctg/initArtboxContent.action?disp_ctg_no=2007003203&sale_shop_divi_cd=12&conts_dist_no=C20121600834136">
+                        <img src="./images/friends.jpg" alt="아트박스프랜즈">
+                    </a> 
+                    <div class="intro-text"> 
+                        <p class="friends-txt1">아트박스에서 만나볼 수 있는 친구들 -</p>
+                            <p class="friends-txtSp">ARTBOX FRIENDS!</p>
+                      
+                        <p>갈라파고스 섬에서 살고 있는 특별한 초능력을 가진</p>
+                        <p class="friends-txt2-1">GALAPAGOS FRIENDS,</p>
+                      
+                        <p>귀엽고 사랑스러운 비숑아가씨</p>
+                        <p class="friends-txt2-2">BABICHON💜</p>
+                      
+                        <p>폭 안기고 싶은 푸근한 곰, 폴과 귀여운 친구 코코!</p>
+                        <p class="friends-txt2-3">PAUL & COCO</p>
+
+                        <p>서울에 살고 있는 범상찮은 패밀리,</p>
+                        <p class="friends-txt2-4">THE GANGNAMS!</p>
+                      
+                        <p class="friends-txt3">오직 아트박스에서 만날 수 있어요~!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </main>
+        <footer>
+            <nav class="footer-Top">
+                <ul>
+                    <li><a href="#">POOM</a></li>
+                    <li class="ft-line">ㅣ</li>
+                    <li><a href="#">회사소개</a></li>
+                    <li class="ft-line">ㅣ</li>
+                    <li><a href="#">이용약관</a></li>
+                    <li class="ft-line">ㅣ</li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li class="ft-line">ㅣ</li>
+                    <li><a href="#">청소년보호방침</a></li>
+                    <li class="ft-line">ㅣ</li>
+                    <li><a href="#">입점문의</a></li>
+                    <li class="ft-line">ㅣ</li>
+                    <li><a href="#">업무제휴/홍보문의</a></li>
+                    <li class="ft-line">ㅣ</li>
+                    <li><a href="#">대량구매</a></li>
+                    <li class="ft-line">ㅣ</li>
+                    <li><a href="#">매장안내</a></li>
+                </ul>
+            </nav>
+            <div class="ft_btn">
+                <h1 class="ft_logo">
+                    <a href="#"><img src="./images/poom-logo.svg" alt="하단로고"></a>
+                </h1>
+                <div class="sibel">
+                    <div class="ft-info">
+                        <div class="dt">㈜ 아트박스</div>
+                        <div class="dd">대표이사 : 조석현 | (06653) 서울특별시 서초구 반포대로 12길 41</div>
+                        <div class="dd">사업자등록번호 : 214-81-06825</div>
+                        <div class="dd">통신판매업신고 : 제 2011-서울서초-0404호</div>
+                        <div class="dd">호스팅서비스 사업자 : (주)아트박스</div>
+                    </div>
+                </div>
+                <ul class="lnk">
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-play"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+                <div class="add">
+                    <span class="QR">
+                        <img src="./images/v16_997.png" alt="addQR코드">
+                        <span class="qrp">아트박스 POOM APP 다운</span>
+                        <span class="qrh2">스마트폰으로 QR코드 스캔</span>
+                    </span>
+                    <span class="store">
+                        <a href="#">
+                            <img src="./images/v16_989.png" alt="애플스토어">
+                        </a>
+                        <a href="#">
+                            <img src="./images/v16_991.png" alt="구글플레이">
+                        </a>
+                    </span>
+                    <span class="inicis">
+                        <a href="#">
+                            <img src="./images/v16_999.png" alt="결제시스템">
+                        </a>
+                    </span>
+                </div>
+                <div class="sibelR">
+                    <dl class="cst">
+                        <dt>고객감동센터</dt>
+                        <dd class="nm">
+                            <strong>1577-9081</strong>
+                        </dd>
+                        <dd class="tm">
+                            <p>평일 09:00 ~ 18:00 / 점심시간 12:30 ~ 13:30</p>
+                        </dd>
+                        <dd class="em">E-mail : customer@artbox.co.kr</dd>
+                        <dd class="bt">
+                            <a href="javascript:overpass.link('CSTMQUESTION');" class="btn sd wt">
+                                <em>1:1문의/상담</em>
+                                <i class="fa-light fa-chevron-right"></i>
+                            </a>
+                            <a href="javascript:overpass.link('CSTFREQUESTION');" class="btn sd wt">
+                                <em>자주 묻는 질문</em>
+                                <i class="fa-light fa-chevron-right"></i>
+                            </a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="ft_bt">
+                COPYRIGHT &copy; 2020 ARTBOX CO., LTD ALL RIGHTS RESERVED.
+            </div>
+        </footer>
+        <div class="quickmenu">
+            <div class="menu-items">
+              <a href="#" class="quick1"><img src="./images/quick1.jpg" alt="10%할인"></a>
+              <a href="#" class="quick2"><img src="./images/quick2.jpg" alt="신규가입쿠폰"></a>
+              <a href="#" class="quick3"><img src="./images/quick3.png" alt="2024년디자인다이어리"></a>
+              <a href="#" class="quick4"><img src="./images/Redbg-T1.svg" alt="퀵 상단 화살표"></a>
+              <a href="#" class="quick5"><img src="./images/Redbg-B1.svg" alt="퀵 하단 화살표"></a>
+            </div>
+        </div>
+        <!-- 최상단으로 올라가는 화살표 -->
+        <!-- a.btn_top>img -->
+        <a href="#" class="btn_top">
+            <img src="./images/Greybg-T.svg" alt="하단화살표">
+        </a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+	<script src="./js/slickslider.js"></script>
+</body>
+
+</html>
